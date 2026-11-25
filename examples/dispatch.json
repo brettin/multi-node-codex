@@ -1,0 +1,6 @@
+{
+  "run_id": "example-REPLACE-WITH-UNIQUE-ID",
+  "host": "dell2",
+  "project": "atlas",
+  "prompt": "Replace this text with a concrete authorized task, acceptance criteria, an explicit native-worker limit and a deadline. Require host-prefixed worker identities, shared task claims, versioned evidence and frequent inbox checks."
+}

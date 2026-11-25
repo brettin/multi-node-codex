@@ -1,0 +1,9 @@
+settings.json
+.state/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,38 @@
+{
+  "default_host": "dell1",
+  "model": "gpt-6-astra",
+  "provider": "mag",
+  "credential_env": "AMSC_TOKEN",
+  "hosts": {
+    "dell1": {
+      "remote_root": "/home/REMOTE_USER/.local/share/atlas-codex",
+      "remote_codex": "/home/REMOTE_USER/.local/bin/codex",
+      "projects": {
+        "atlas": {
+          "source": "/ABSOLUTE/PATH/TO/PROJECT",
+          "remote_cwd": "/home/REMOTE_USER/.local/share/atlas-codex/projects/atlas"
+        }
+      }
+    },
+    "dell2": {
+      "remote_root": "/home/REMOTE_USER/.local/share/atlas-codex",
+      "remote_codex": "/home/REMOTE_USER/.local/bin/codex",
+      "projects": {
+        "atlas": {
+          "source": "/ABSOLUTE/PATH/TO/PROJECT",
+          "remote_cwd": "/home/REMOTE_USER/.local/share/atlas-codex/projects/atlas"
+        }
+      }
+    },
+    "spark1": {
+      "remote_root": "/home/REMOTE_USER/.local/share/atlas-codex",
+      "remote_codex": "/home/REMOTE_USER/.local/bin/codex",
+      "projects": {
+        "atlas": {
+          "source": "/ABSOLUTE/PATH/TO/PROJECT",
+          "remote_cwd": "/home/REMOTE_USER/.local/share/atlas-codex/projects/atlas"
+        }
+      }
+    }
+  }
+}
